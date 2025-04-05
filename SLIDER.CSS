@@ -1,0 +1,33 @@
+body{
+    background-color: #000A1F;
+}
+
+.CONTAINER{
+    margin: 100PX 0 0 200PX;
+    width: 70%;
+    height: 450PX;
+    display: flex;
+    justify-content: center;
+    gap: 10PX;
+}
+
+.CONTAINER IMG {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10PX;
+    border: 2PX solid RGBA(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5S;
+}
+
+.CONTAINER IMG:HOVER {
+    width: 25%;
+}
+
+H1{
+    color: chartreuse;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-style: oblique;
+}
